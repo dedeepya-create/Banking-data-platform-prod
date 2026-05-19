@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Open .gitignore in VSCode and paste:
+
+# Secrets
+config/config.conf
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Data files
+*.csv
+*.parquet
+*.json
+
+# IDE
+.vscode/
+.idea/
