@@ -16,6 +16,8 @@ AWS_BUCKET_NAME       = config.get('aws', 'aws_bucket_name')
 BRONZE_PATH = config.get('s3_paths', 'bronze_path')
 SILVER_PATH = config.get('s3_paths', 'silver_path')
 GOLD_PATH   = config.get('s3_paths', 'gold_path')
+BRONZE_PARQUET = config.get('s3_paths', 'bronze_parquet')
+
 
 # DynamoDB
 STOCKS_TABLE = config.get('dynamodb', 'stocks_table')
